@@ -3,36 +3,107 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Njuguna Devs - Custom Web Solutions for Kenyan Businesses</title>
-    <link rel="icon" type="image/png" href="Images/Njuguna Devs logo .png">
+    
+    <!-- Primary Meta Tags -->
+    <title>Njuguna Devs | Professional Web Developers in Nairobi, Kenya</title>
+    <meta name="title" content="Njuguna Devs | Professional Web Developers in Nairobi, Kenya">
+    <meta name="description" content="Njuguna Devs builds custom websites for Kenyan businesses. Based in Nairobi, we create affordable, high-performance websites that generate leads. Free consultation.">
+    <meta name="keywords" content="web developers Nairobi, website design Kenya, affordable web design Nairobi, ecommerce website developers Kenya, best web developer Nairobi, custom websites Kenya, web development company Nairobi">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://njugunadevs.co.ke/">
+    <meta property="og:title" content="Njuguna Devs | Professional Web Developers in Nairobi, Kenya">
+    <meta property="og:description" content="Nairobi-based web developers building custom websites that actually generate leads. Free consultation for Kenyan businesses.">
+    <meta property="og:image" content="https://njugunadevs.co.ke/Images/Njuguna%20Devs%20logo%20.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://njugunadevs.co.ke/">
+    <meta property="twitter:title" content="Njuguna Devs | Professional Web Developers in Nairobi, Kenya">
+    <meta property="twitter:description" content="Nairobi-based web developers building custom websites that actually generate leads. Free consultation for Kenyan businesses.">
+    <meta property="twitter:image" content="https://njugunadevs.co.ke/Images/Njuguna%20Devs%20logo%20.png">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://njugunadevs.co.ke/">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="Images/WhatsApp Image 2026-03-02 at.jpeg">
+    <link rel="apple-touch-icon" href="Images/WhatsApp Image 2026-03-02 at.jpeg">
+
+    <!-- CSS -->
     <link rel="stylesheet" href="style.css">
-    <!-- Font Awesome for icons (fallback) -->
+    
+    <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Schema Markup - LocalBusiness -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Njuguna Devs",
+        "image": "https://njugunadevs.co.ke/Images/Njuguna Devs logo .png",
+        "url": "https://njugunadevs.co.ke",
+        "telephone": "+254792629643",
+        "email": "njugunadevs@gmail.com",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Nairobi",
+            "addressRegion": "Nairobi",
+            "addressCountry": "KE"
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": -1.286389,
+            "longitude": 36.817223
+        },
+        "openingHours": "Mo-Fr 09:00-18:00",
+        "priceRange": "KES",
+        "description": "Professional web development services in Nairobi, Kenya. Custom websites, ecommerce solutions, and SEO optimization.",
+        "areaServed": ["Nairobi", "Kenya"],
+        "founder": {
+            "@type": "Person",
+            "name": "Cyrus Njuguna"
+        },
+        "sameAs": [
+            "https://www.instagram.com/njugunadevs",
+            "https://www.youtube.com/@njugunadevs",
+            "https://www.linkedin.com/company/njuguna-devs"
+        ]
+    }
+    </script>
 </head>
 <body>
+    <!-- Skip Navigation Link for Accessibility -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
     <!-- Navigation -->
-    <nav class="navbar">
+    <nav class="navbar" role="navigation" aria-label="main navigation">
         <div class="nav-container">
             <div class="nav-logo">
-                <img src="Images/Njuguna Devs logo .png" alt="Njuguna Devs Logo" class="logo-img" style="height:72px;width:auto;">
+                <img src="Images/Njuguna Devs logo .png" alt="Njuguna Devs - Professional Web Developers Nairobi" class="logo-img">
                 <span class="logo-text">Njuguna Devs</span>
             </div>
             
             <!-- Mobile menu button -->
-            <button class="mobile-menu-btn" id="mobileMenuBtn">
-                <i class="fas fa-bars"></i>
+            <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Menu" aria-expanded="false">
+                <i class="fas fa-bars" aria-hidden="true"></i>
             </button>
 
             <!-- Navigation links -->
-            <ul class="nav-links" id="navLinks">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#why-us">Why Us</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <li class="nav-whatsapp">
-                    <a href="https://wa.me/254700000000" class="whatsapp-nav-btn" target="_blank">
-                        <i class="fab fa-whatsapp"></i> Chat Now
+            <ul class="nav-links" id="navLinks" role="list">
+                <li role="listitem"><a href="#home">Home</a></li>
+                <li role="listitem"><a href="#services">Services</a></li>
+                <li role="listitem"><a href="#projects">Projects</a></li>
+                <li role="listitem"><a href="#about">About</a></li>
+                <li role="listitem"><a href="#faq">FAQ</a></li>
+                <li role="listitem"><a href="#contact">Contact</a></li>
+                <li role="listitem" class="nav-whatsapp">
+                    <a href="https://wa.me/254792629643" class="whatsapp-nav-btn" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-whatsapp" aria-hidden="true"></i> Chat on WhatsApp
                     </a>
                 </li>
             </ul>
@@ -40,462 +111,720 @@
     </nav>
 
     <!-- Floating WhatsApp Button -->
-    <a href="https://wa.me/254700000000" class="floating-whatsapp" target="_blank">
-        <i class="fab fa-whatsapp"></i>
-        <span class="floating-tooltip">Chat with us</span>
+    <a href="https://wa.me/254792629643" class="floating-whatsapp" target="_blank" rel="noopener noreferrer" aria-label="Chat with us on WhatsApp">
+        <i class="fab fa-whatsapp" aria-hidden="true"></i>
+        <span class="floating-tooltip" role="tooltip">Chat with Cyrus directly</span>
     </a>
 
-    <div class="container">
-        <!-- Hero Section -->
-        <section class="hero" id="home">
-            <div class="hero-content">
-                <h1 class="hero-title">Custom <span class="highlight">Web Solutions</span> for Kenyan Businesses</h1>
-                <p class="hero-subtext">We build websites and tools that actually work for your business—no templates, no confusion, just practical results.</p>
-                <div class="hero-stats">
-                    <div class="stat">
-                        <span class="stat-number">50+</span>
-                        <span class="stat-label">Projects Completed</span>
-                    </div>
-                    <div class="stat">
-                        <span class="stat-number">100%</span>
-                        <span class="stat-label">Client Satisfaction</span>
-                    </div>
-                    <div class="stat">
-                        <span class="stat-number">24/7</span>
-                        <span class="stat-label">Support</span>
-                    </div>
-                </div>
-                <div class="hero-cta">
-                    <a href="#contact" class="btn primary">Get Your Free Consultation <i class="fas fa-arrow-right"></i></a>
-                    <a href="https://wa.me/254700000000" class="btn whatsapp-btn" target="_blank">
-                        <i class="fab fa-whatsapp"></i> WhatsApp Us
-                    </a>
-                </div>
-            </div>
-            <div class="hero-visual">
-                <img src="Images/Njuguna Devs logo .png" alt="Njuguna Devs Logo" style="height:180px;width:auto;display:block;margin:0 auto 16px auto;">
-                <div class="experience-badge">
-                    <span class="exp-years">3+</span>
-                    <span class="exp-text">Years Experience</span>
-                </div>
-            </div>
-        </section>
-
-        <!-- Services Section (Grouped into 5 Main Services) -->
-        <section class="section services-section" id="services">
-            <div class="section-header">
-                <span class="section-subtitle">What We Offer</span>
-                <h2 class="section-title">Web Solutions Built for Your Business</h2>
-                <p class="section-desc">No templates. No middlemen. Just direct, practical websites and tools that solve real business problems.</p>
-            </div>
-            
-            <div class="services-grid">
-                <!-- Service 1: Custom Website Development -->
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-code"></i>
-                    </div>
-                    <h3>1. Custom Website Development</h3>
-                    <p>Modern, responsive websites built with HTML, CSS, JavaScript, and React. Perfect for businesses that need a fast, clean online presence.</p>
-                    <ul class="service-features">
-                        <li><i class="fas fa-check"></i> Business websites</li>
-                        <li><i class="fas fa-check"></i> Landing pages</li>
-                        <li><i class="fas fa-check"></i> Portfolio sites</li>
-                        <li><i class="fas fa-check"></i> React web apps</li>
-                    </ul>
-                </div>
-
-                <!-- Service 2: Website Design & UI Development -->
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-paint-brush"></i>
-                    </div>
-                    <h3>2. Website Design & UI Development</h3>
-                    <p>Professional interfaces from Figma designs. Interactive, responsive layouts that look great on all devices.</p>
-                    <ul class="service-features">
-                        <li><i class="fas fa-check"></i> Figma to website</li>
-                        <li><i class="fas fa-check"></i> Responsive design</li>
-                        <li><i class="fas fa-check"></i> UI animations</li>
-                        <li><i class="fas fa-check"></i> Interface improvements</li>
-                    </ul>
-                </div>
-
-                <!-- Service 3: Website Maintenance & Bug Fixing -->
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-tools"></i>
-                    </div>
-                    <h3>3. Website Maintenance & Bug Fixing</h3>
-                    <p>Fix errors, update features, and keep your site running smoothly. We handle layout fixes, debugging, and performance improvements.</p>
-                    <ul class="service-features">
-                        <li><i class="fas fa-check"></i> Bug fixes</li>
-                        <li><i class="fas fa-check"></i> Performance optimization</li>
-                        <li><i class="fas fa-check"></i> Content updates</li>
-                        <li><i class="fas fa-check"></i> Security checks</li>
-                    </ul>
-                </div>
-
-                <!-- Service 4: Hosting, Domain & Deployment -->
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-globe"></i>
-                    </div>
-                    <h3>4. Hosting, Domain & Deployment</h3>
-                    <p>Full setup of domains, hosting, and deployment. SSL certificates, DNS configuration, and website migration included.</p>
-                    <ul class="service-features">
-                        <li><i class="fas fa-check"></i> Domain setup</li>
-                        <li><i class="fas fa-check"></i> Hosting configuration</li>
-                        <li><i class="fas fa-check"></i> SSL certificates</li>
-                        <li><i class="fas fa-check"></i> Website migration</li>
-                    </ul>
-                </div>
-
-                <!-- Service 5: Integrations & Automation -->
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-plug"></i>
-                    </div>
-                    <h3>5. Integrations & Automation</h3>
-                    <p>WhatsApp chat integration, contact forms, and connecting your site to the tools you use every day.</p>
-                    <ul class="service-features">
-                        <li><i class="fas fa-check"></i> WhatsApp integration</li>
-                        <li><i class="fas fa-check"></i> Contact forms</li>
-                        <li><i class="fas fa-check"></i> Payment gateways</li>
-                        <li><i class="fas fa-check"></i> API connections</li>
-                    </ul>
-                </div>
-            </div>
-
-            <!-- Additional Services Accordion -->
-            <div class="additional-services">
-                <button class="accordion-toggle" id="toggleAdditional">
-                    <span>View Additional Services</span>
-                    <i class="fas fa-chevron-down"></i>
-                </button>
-                <div class="additional-grid" id="additionalServices">
-                    <div class="additional-item">
-                        <i class="fas fa-wordpress"></i>
-                        <span>WordPress Development</span>
-                    </div>
-                    <div class="additional-item">
-                        <i class="fas fa-database"></i>
-                        <span>Database Setup (SQL)</span>
-                    </div>
-                    <div class="additional-item">
-                        <i class="fas fa-chart-line"></i>
-                        <span>Website Optimization</span>
-                    </div>
-                    <div class="additional-item">
-                        <i class="fas fa-search"></i>
-                        <span>Website Research & Planning</span>
-                    </div>
-                    <div class="additional-item">
-                        <i class="fas fa-robot"></i>
-                        <span>AI-Assisted Content Creation</span>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Projects Section with YouTube Videos -->
-        <section class="section projects-section" id="projects">
-            <div class="section-header">
-                <span class="section-subtitle">Our Work</span>
-                <h2 class="section-title">Recent Projects</h2>
-                <p class="section-desc">See our solutions in action. Click to watch the video walkthroughs.</p>
-            </div>
-
-            <div class="projects-grid">
-                <!-- Kilimani Bistro Caterers -->
-                <div class="project-card">
-                    <div class="project-video">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/jKdm5EwTPR4?si=08lnHKh2qEzWRtQK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                    </div>
-                    <div class="project-info">
-                        <h3>Kilimani Bistro Caterers</h3>
-                        <p class="project-type">Restaurant Website & Menu Display</p>
-                        <p class="project-desc">Complete website solution for a catering business. Improved online visibility and customer engagement through a clean, responsive design.</p>
-                        <div class="project-tech">
-                            <span>HTML</span>
-                            <span>CSS</span>
-                            <span>JavaScript</span>
-                        </div>
-                        <a href="https://youtu.be/jKdm5EwTPR4" class="project-link" target="_blank">
-                            <i class="fab fa-youtube"></i> Watch Video
-                        </a>
-                    </div>
-                </div>
-
-                <!-- E-commerce Products UI -->
-                <div class="project-card">
-                    <div class="project-video">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/DEkXigYIR00?si=A61zluUmclwJzalY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                    </div>
-                    <div class="project-info">
-                        <h3>E-commerce Products UI</h3>
-                        <p class="project-type">Product Catalog Interface</p>
-                        <p class="project-desc">Modern, responsive product display interface with smooth interactions. Perfect for online stores and product showcases.</p>
-                        <div class="project-tech">
-                            <span>React</span>
-                            <span>CSS</span>
-                            <span>UI Design</span>
-                        </div>
-                        <a href="https://youtu.be/DEkXigYIR00" class="project-link" target="_blank">
-                            <i class="fab fa-youtube"></i> Watch Video
-                        </a>
-                    </div>
-                </div>
-
-                <!-- Life Lift Hub -->
-                <div class="project-card">
-                    <div class="project-video">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/gMqZmkU4PW0?si=Q9iti4PmcnOH2fyY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                    </div>
-                    <div class="project-info">
-                        <h3>Life Lift Hub</h3>
-                        <p class="project-type">Wellness & Fitness Platform</p>
-                        <p class="project-desc">Engaging website for a wellness brand with clean visuals and user-friendly navigation.</p>
-                        <div class="project-tech">
-                            <span>HTML</span>
-                            <span>CSS</span>
-                            <span>JavaScript</span>
-                        </div>
-                        <a href="https://youtu.be/gMqZmkU4PW0" class="project-link" target="_blank">
-                            <i class="fab fa-youtube"></i> Watch Video
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Why Choose Us -->
-        <section class="section why-section" id="why-us">
-            <div class="why-container">
-                <div class="why-content">
-                    <span class="section-subtitle">Why Njuguna Devs</span>
-                    <h2 class="section-title">You Work Directly With <span class="highlight">Cyrus Njuguna</span></h2>
-                    <p class="why-description">No faceless agency. No project managers slowing things down. You get direct access to the developer building your solution.</p>
+    <main id="main-content">
+        <div class="container">
+            <!-- HERO SECTION -->
+            <section class="hero" id="home" aria-labelledby="hero-title">
+                <div class="hero-content">
+                    <h1 class="hero-title" id="hero-title">
+                        <span class="highlight">Nairobi's Professional Web Developers</span> Who Build Websites That Actually Generate Customers
+                    </h1>
+                    <p class="hero-subtext">Based in Nairobi, we create custom websites for Kenyan businesses that don't just look good — they bring in leads, orders, and real results. No templates. No confusing tech jargon. Just websites that work.</p>
                     
-                    <div class="why-features">
-                        <div class="why-feature">
-                            <div class="feature-icon">
-                                <i class="fas fa-user-check"></i>
-                            </div>
-                            <div>
-                                <h4>Direct Communication</h4>
-                                <p>Chat directly on WhatsApp with the person building your site. No middlemen, no confusion.</p>
-                            </div>
+                    <div class="hero-stats">
+                        <div class="stat">
+                            <span class="stat-number">50+</span>
+                            <span class="stat-label">Kenyan Businesses Served</span>
                         </div>
-                        
-                        <div class="why-feature">
-                            <div class="feature-icon">
-                                <i class="fas fa-puzzle-piece"></i>
-                            </div>
-                            <div>
-                                <h4>Custom-Built Solutions</h4>
-                                <p>Every line of code is written specifically for your business. No templates, no cookie-cutter designs.</p>
-                            </div>
+                        <div class="stat">
+                            <span class="stat-number">100%</span>
+                            <span class="stat-label">Client Satisfaction</span>
                         </div>
-                        
-                        <div class="why-feature">
-                            <div class="feature-icon">
-                                <i class="fas fa-chart-simple"></i>
-                            </div>
-                            <div>
-                                <h4>Business-First Approach</h4>
-                                <p>We focus on what actually helps your business grow, not just making things look pretty.</p>
-                            </div>
-                        </div>
-                        
-                        <div class="why-feature">
-                            <div class="feature-icon">
-                                <i class="fas fa-hand-holding-heart"></i>
-                            </div>
-                            <div>
-                                <h4>Ongoing Support</h4>
-                                <p>Even after launch, we're here to help. Fixes, updates, and advice whenever you need it.</p>
-                            </div>
+                        <div class="stat">
+                            <span class="stat-number">24/7</span>
+                            <span class="stat-label">Local Support</span>
                         </div>
                     </div>
                     
-                    <div class="why-cta">
-                        <a href="https://wa.me/254700000000" class="btn whatsapp-btn" target="_blank">
-                            <i class="fab fa-whatsapp"></i> Chat With Cyrus Directly
+                    <div class="hero-cta">
+                        <a href="#contact" class="btn primary">Get Free Consultation <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+                        <a href="https://wa.me/254792629643" class="btn whatsapp-btn" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-whatsapp" aria-hidden="true"></i> WhatsApp Us Now
                         </a>
+                    </div>
+
+                    <!-- Trust Badges -->
+                    <div class="trust-badges">
+                        <span><i class="fas fa-check-circle" style="color: var(--secondary);"></i> Based in Nairobi</span>
+                        <span><i class="fas fa-check-circle" style="color: var(--secondary);"></i> 100% Kenyan Owned</span>
+                        <span><i class="fas fa-check-circle" style="color: var(--secondary);"></i> Affordable Rates</span>
                     </div>
                 </div>
                 
-                <div class="why-image">
-                    <img src="/Images/Njuguna Devs logo .png" alt="Njuguna Devs Logo" style="height:90px;width:auto;display:block;margin:0 auto 12px auto;">
-                    <div class="experience-card">
-                        <i class="fas fa-code"></i>
-                        <div>
-                            <strong>3+ Years</strong>
-                            <span>Development Experience</span>
+                <div class="hero-visual">
+                    <div class="image-frame">
+                        <img src="Images/Njuguna Devs logo .png" alt="Njuguna Devs - Web Development Company Nairobi Kenya" class="hero-image">
+                    </div>
+                </div>
+            </section>
+
+            <!-- SERVICES SECTION -->
+            <section class="section services-section" id="services" aria-labelledby="services-title">
+                <div class="section-header">
+                    <span class="section-subtitle">Web Development Services in Nairobi</span>
+                    <h2 class="section-title" id="services-title">Professional Websites for Kenyan Businesses</h2>
+                    <p class="section-desc">Whether you're in Nairobi, Mombasa, or anywhere in Kenya — we build websites that solve real business problems and bring in customers.</p>
+                </div>
+                
+                <div class="services-grid">
+                    <!-- Service 1: Business Websites -->
+                    <div class="service-card">
+                        <div class="service-icon" aria-hidden="true">
+                            <i class="fas fa-briefcase"></i>
+                        </div>
+                        <h3>Business Websites Nairobi</h3>
+                        <p>Professional, responsive websites for Kenyan businesses. Perfect for companies in Nairobi looking to establish a strong online presence and attract local customers.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check" aria-hidden="true"></i> Company profile websites</li>
+                            <li><i class="fas fa-check" aria-hidden="true"></i> Local business listings</li>
+                            <li><i class="fas fa-check" aria-hidden="true"></i> Service-based businesses</li>
+                            <li><i class="fas fa-check" aria-hidden="true"></i> Professional portfolios</li>
+                        </ul>
+                        <div class="service-price">
+                            <p>From <strong>KES 15,000</strong></p>
+                        </div>
+                    </div>
+
+                    <!-- Service 2: E-commerce Websites -->
+                    <div class="service-card featured">
+                        <div class="service-icon" aria-hidden="true">
+                            <i class="fas fa-shopping-cart"></i>
+                        </div>
+                        <h3>E-commerce Website Developers Kenya</h3>
+                        <p>Sell online with custom e-commerce websites built for Kenyan businesses. M-Pesa integration, product catalogs, and secure payment gateways included.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check" aria-hidden="true"></i> M-Pesa & payment integration</li>
+                            <li><i class="fas fa-check" aria-hidden="true"></i> Product management system</li>
+                            <li><i class="fas fa-check" aria-hidden="true"></i> Order tracking</li>
+                            <li><i class="fas fa-check" aria-hidden="true"></i> Inventory management</li>
+                        </ul>
+                        <div class="service-price">
+                            <p>From <strong>KES 35,000</strong></p>
+                        </div>
+                        <span class="popular-badge">Most Popular</span>
+                    </div>
+
+                    <!-- Service 3: Restaurant Websites -->
+                    <div class="service-card">
+                        <div class="service-icon" aria-hidden="true">
+                            <i class="fas fa-utensils"></i>
+                        </div>
+                        <h3>Restaurant Websites Nairobi</h3>
+                        <p>Specialized websites for restaurants, cafes, and caterers in Nairobi. Digital menus, online ordering, and table booking systems to grow your food business.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check" aria-hidden="true"></i> Digital menu display</li>
+                            <li><i class="fas fa-check" aria-hidden="true"></i> Online ordering system</li>
+                            <li><i class="fas fa-check" aria-hidden="true"></i> Table reservations</li>
+                            <li><i class="fas fa-check" aria-hidden="true"></i> Location & contact maps</li>
+                        </ul>
+                        <div class="service-price">
+                            <p>From <strong>KES 20,000</strong></p>
+                        </div>
+                    </div>
+
+                    <!-- Service 4: SEO & Digital Marketing -->
+                    <div class="service-card">
+                        <div class="service-icon" aria-hidden="true">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <h3>SEO Services Kenya</h3>
+                        <p>Get your website found on Google. Our SEO packages help Nairobi businesses rank higher in local searches and attract more customers without paying for ads.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check" aria-hidden="true"></i> Local SEO for Nairobi</li>
+                            <li><i class="fas fa-check" aria-hidden="true"></i> Google Business Profile setup</li>
+                            <li><i class="fas fa-check" aria-hidden="true"></i> Keyword optimization</li>
+                            <li><i class="fas fa-check" aria-hidden="true"></i> Performance tracking</li>
+                        </ul>
+                        <div class="service-price">
+                            <p>From <strong>KES 10,000/mo</strong></p>
+                        </div>
+                    </div>
+
+                    <!-- Service 5: Website Maintenance -->
+                    <div class="service-card">
+                        <div class="service-icon" aria-hidden="true">
+                            <i class="fas fa-tools"></i>
+                        </div>
+                        <h3>Website Maintenance Nairobi</h3>
+                        <p>Keep your website secure, fast, and up-to-date. Monthly maintenance packages for Nairobi businesses who want peace of mind and technical support when needed.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check" aria-hidden="true"></i> Security updates</li>
+                            <li><i class="fas fa-check" aria-hidden="true"></i> Content updates</li>
+                            <li><i class="fas fa-check" aria-hidden="true"></i> Bug fixes</li>
+                            <li><i class="fas fa-check" aria-hidden="true"></i> Performance optimization</li>
+                        </ul>
+                        <div class="service-price">
+                            <p>From <strong>KES 5,000/mo</strong></p>
+                        </div>
+                    </div>
+
+                    <!-- Service 6: Custom Web Applications -->
+                    <div class="service-card">
+                        <div class="service-icon" aria-hidden="true">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h3>Custom Web Development Kenya</h3>
+                        <p>Need something unique? We build custom web applications, booking systems, and business tools tailored specifically for your Nairobi-based company.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check" aria-hidden="true"></i> Custom dashboards</li>
+                            <li><i class="fas fa-check" aria-hidden="true"></i> Booking systems</li>
+                            <li><i class="fas fa-check" aria-hidden="true"></i> Client portals</li>
+                            <li><i class="fas fa-check" aria-hidden="true"></i> API integrations</li>
+                        </ul>
+                        <div class="service-price">
+                            <p>Custom Quote</p>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
 
-        <!-- Contact Section with WhatsApp Form -->
-        <section class="section contact-section" id="contact">
-            <div class="section-header">
-                <span class="section-subtitle">Get In Touch</span>
-                <h2 class="section-title">Let's Build Your Solution</h2>
-                <p class="section-desc">Tell us about your project and we'll get back to you within 24 hours.</p>
-            </div>
+                <!-- Nairobi Service Areas -->
+                <div class="service-areas">
+                    <p><i class="fas fa-map-marker-alt" style="color: var(--primary);"></i> <strong>Serving businesses across Nairobi:</strong> Westlands, Kilimani, Karen, Lavington, CBD, Eastlands, and all major areas in Kenya.</p>
+                </div>
+            </section>
 
-            <div class="contact-container">
-                <!-- Contact Form (Sends to WhatsApp) -->
-                <div class="contact-form-wrapper">
-                    <form action="https://api.web3forms.com/submit" method="POST" class="contact-form">
-                        <h3>Send us a message</h3>
-                        <input type="hidden" name="access_key" value="17ff5781-b901-4cb8-a65d-3884802606de">
-                        <div class="form-group">
-                            <label for="name">Your Name *</label>
-                            <input type="text" id="name" name="name" required placeholder="John Doe">
-                        </div>
-                        <div class="form-group">
-                            <label for="email">Email Address *</label>
-                            <input type="email" id="email" name="email" required placeholder="john@example.com">
-                        </div>
-                        <div class="form-group">
-                            <label for="message">Project Details *</label>
-                            <textarea id="message" name="message" rows="5" required placeholder="Tell us about your business and what you need..."></textarea>
-                        </div>
-                        <button type="submit" class="btn primary submit-btn">
-                            Submit
-                        </button>
-                    </form>
+            <!-- PROJECTS SECTION -->
+            <section class="section projects-section" id="projects" aria-labelledby="projects-title">
+                <div class="section-header">
+                    <span class="section-subtitle">Our Work in Nairobi</span>
+                    <h2 class="section-title" id="projects-title">Recent Web Development Projects</h2>
+                    <p class="section-desc">Real websites we've built for Kenyan businesses. See the quality and results for yourself.</p>
                 </div>
 
-                <!-- Contact Information -->
-                <div class="contact-info">
-                    <div class="info-card">
-                        <h3>Quick Contact</h3>
+                <div class="projects-grid">
+                    <!-- Kilimani Bistro Caterers -->
+                    <div class="project-card">
+                        <div class="project-video">
+                            <iframe src="https://www.youtube.com/embed/jKdm5EwTPR4" title="Kilimani Bistro Caterers - Restaurant Website Nairobi" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen loading="lazy"></iframe>
+                        </div>
+                        <div class="project-info">
+                            <h3>Kilimani Bistro Caterers</h3>
+                            <p class="project-type">Restaurant Website | Nairobi</p>
+                            <p class="project-desc">Complete website solution for a catering business in Kilimani, Nairobi. Features digital menu, contact forms, and mobile-responsive design that increased their customer inquiries by 40%.</p>
+                            <div class="project-tech">
+                                <span>HTML5</span>
+                                <span>CSS3</span>
+                                <span>JavaScript</span>
+                                <span>Mobile-First</span>
+                            </div>
+                            <a href="https://youtu.be/jKdm5EwTPR4" class="project-link" target="_blank" rel="noopener noreferrer">
+                                <i class="fab fa-youtube" aria-hidden="true"></i> Watch Case Study
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- E-commerce Products UI -->
+                    <div class="project-card">
+                        <div class="project-video">
+                            <iframe src="https://www.youtube.com/embed/DEkXigYIR00" title="E-commerce Website UI - Online Store Kenya" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen loading="lazy"></iframe>
+                        </div>
+                        <div class="project-info">
+                            <h3>E-commerce Store UI</h3>
+                            <p class="project-type">Online Store | Nairobi</p>
+                            <p class="project-desc">Modern e-commerce interface built for a Nairobi-based retailer. Features product catalog, shopping cart, and M-Pesa integration ready for Kenyan customers.</p>
+                            <div class="project-tech">
+                                <span>React</span>
+                                <span>CSS3</span>
+                                <span>API Integration</span>
+                                <span>M-Pesa Ready</span>
+                            </div>
+                            <a href="https://youtu.be/DEkXigYIR00" class="project-link" target="_blank" rel="noopener noreferrer">
+                                <i class="fab fa-youtube" aria-hidden="true"></i> Watch Demo
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Life Lift Hub -->
+                    <div class="project-card">
+                        <div class="project-video">
+                            <iframe src="https://www.youtube.com/embed/gMqZmkU4PW0" title="Life Lift Hub - Wellness Website Kenya" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen loading="lazy"></iframe>
+                        </div>
+                        <div class="project-info">
+                            <h3>Life Lift Hub</h3>
+                            <p class="project-type">Wellness Platform | Nairobi</p>
+                            <p class="project-desc">Engaging wellness website for a Nairobi-based fitness brand. Clean design, easy navigation, and content management system for regular updates.</p>
+                            <div class="project-tech">
+                                <span>HTML5</span>
+                                <span>CSS3</span>
+                                <span>JavaScript</span>
+                                <span>Responsive</span>
+                            </div>
+                            <a href="https://youtu.be/gMqZmkU4PW0" class="project-link" target="_blank" rel="noopener noreferrer">
+                                <i class="fab fa-youtube" aria-hidden="true"></i> Watch Video
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ABOUT SECTION -->
+            <section class="section why-section" id="about" aria-labelledby="about-title">
+                <div class="why-container">
+                    <div class="why-content">
+                        <span class="section-subtitle">About Njuguna Devs</span>
+                        <h2 class="section-title" id="about-title">Nairobi's Trusted <span class="highlight">Web Development Team</span></h2>
+                        <p class="why-description">We're not a large, faceless agency. We're a focused team of web developers based in Nairobi, Kenya, led by <strong>Cyrus Njuguna</strong>. Every client works directly with the person building their website.</p>
                         
-                        <div class="info-item">
-                            <i class="fab fa-whatsapp"></i>
-                            <div>
-                                <strong>WhatsApp</strong>
-                                <a href="https://wa.me/254700000000">+254 700 000 000</a>
-                                <span class="info-note">Usually replies within 1 hour</span>
+                        <div class="why-features">
+                            <div class="why-feature">
+                                <div class="feature-icon" aria-hidden="true">
+                                    <i class="fas fa-map-pin"></i>
+                                </div>
+                                <div>
+                                    <h4>Proudly Nairobi-Based</h4>
+                                    <p>We understand the local market. We know what Kenyan customers expect and how to help your business stand out online.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="why-feature">
+                                <div class="feature-icon" aria-hidden="true">
+                                    <i class="fas fa-clock"></i>
+                                </div>
+                                <div>
+                                    <h4>5+ Years Experience</h4>
+                                    <p>Building websites for Kenyan businesses since 2020. We've helped over 50 companies establish their online presence.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="why-feature">
+                                <div class="feature-icon" aria-hidden="true">
+                                    <i class="fas fa-whatsapp"></i>
+                                </div>
+                                <div>
+                                    <h4>Direct WhatsApp Support</h4>
+                                    <p>No email tickets, no waiting. You can message us directly on WhatsApp and get answers within hours, not days.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="why-feature">
+                                <div class="feature-icon" aria-hidden="true">
+                                    <i class="fas fa-shield-alt"></i>
+                                </div>
+                                <div>
+                                    <h4>No Contracts, No Lock-in</h4>
+                                    <p>You own your website completely. We're here to help, but you're never locked into anything you don't want.</p>
+                                </div>
                             </div>
                         </div>
-
-                        <div class="info-item">
-                            <i class="far fa-envelope"></i>
-                            <div>
-                                <strong>Email</strong>
-                                <a href="mailto:cyrus@njugunadevs.com">cyrus@njugunadevs.com</a>
-                                <span class="info-note">24-48 hour response</span>
-                            </div>
+                        
+                        <div class="why-cta">
+                            <a href="https://wa.me/254792629643" class="btn whatsapp-btn" target="_blank" rel="noopener noreferrer">
+                                <i class="fab fa-whatsapp" aria-hidden="true"></i> Chat With Cyrus Directly
+                            </a>
                         </div>
-
-                        <div class="info-item">
-                            <i class="fas fa-map-marker-alt"></i>
-                            <div>
-                                <strong>Location</strong>
-                                <span>Nairobi, Kenya</span>
-                                <span class="info-note">Available for remote work</span>
-                            </div>
+                    </div>
+                    
+                    <div class="why-image">
+                        <div class="image-frame">
+                            <img src="Images/Njuguna Devs logo .png" alt="Cyrus Njuguna - Lead Web Developer Nairobi Kenya" class="about-image">
                         </div>
-
-                        <div class="info-divider"></div>
-
-                        <h4>Common Questions</h4>
-                        <div class="faq-mini">
-                            <div class="faq-item">
-                                <strong>How much does a website cost?</strong>
-                                <p>Starts from KES 15,000 depending on complexity. Get a free quote.</p>
-                            </div>
-                            <div class="faq-item">
-                                <strong>How long does it take?</strong>
-                                <p>Basic sites: 1-2 weeks. Complex projects: 3-4 weeks.</p>
-                            </div>
-                            <div class="faq-item">
-                                <strong>Do you offer maintenance?</strong>
-                                <p>Yes! Monthly and one-time maintenance packages available.</p>
-                            </div>
-                        </div>
-
-                        <div class="guarantee-badge">
-                            <i class="fas fa-shield-alt"></i>
+                        <div class="experience-card">
+                            <i class="fas fa-trophy" style="color: var(--primary); font-size: 2rem;"></i>
                             <div>
-                                <strong>100% Satisfaction Guaranteed</strong>
-                                <span>We're not happy until you're happy</span>
+                                <strong>50+ Projects</strong>
+                                <span>Completed in Kenya</span>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
+            </section>
 
-        <!-- Testimonials -->
-        <section class="section testimonials">
-            <div class="section-header">
-                <h2 class="section-title">What Our Clients Say</h2>
-            </div>
-            <div class="testimonials-grid">
-                <div class="testimonial-card">
-                    <i class="fas fa-quote-left"></i>
-                    <p>"Cyrus built our restaurant website from scratch. The communication was excellent and he understood exactly what we needed. Highly recommend!"</p>
-                    <div class="client">
-                        <strong>Sarah Kimani</strong>
-                        <span>Kilimani Bistro</span>
+            <!-- FAQ SECTION -->
+            <section class="section faq-section" id="faq" aria-labelledby="faq-title">
+                <div class="section-header">
+                    <span class="section-subtitle">Common Questions</span>
+                    <h2 class="section-title" id="faq-title">Frequently Asked Questions About Web Development in Nairobi</h2>
+                    <p class="section-desc">Everything you need to know about working with us, our process, and what to expect.</p>
+                </div>
+
+                <div class="faq-grid" itemscope itemtype="https://schema.org/FAQPage">
+                    
+                    <!-- FAQ 1: Pricing -->
+                    <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                        <div class="faq-question" onclick="toggleFAQ(this)">
+                            <h3 itemprop="name">How much does a website cost in Kenya?</h3>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                            <div itemprop="text">
+                                <p>Website prices in Kenya vary based on what you need:</p>
+                                <ul>
+                                    <li><strong>Basic business website:</strong> From KES 15,000 - perfect for small businesses, professionals, and startups needing a simple online presence.</li>
+                                    <li><strong>E-commerce website:</strong> From KES 35,000 - includes product catalog, M-Pesa integration, and shopping cart.</li>
+                                    <li><strong>Restaurant website:</strong> From KES 20,000 - digital menus, online ordering, and table booking.</li>
+                                    <li><strong>Custom web applications:</strong> Quote based on your specific needs.</li>
+                                </ul>
+                                <p>We offer flexible payment plans. <a href="#contact">Contact us for a free, no-obligation quote</a> tailored to your budget.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FAQ 2: Timeline -->
+                    <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                        <div class="faq-question" onclick="toggleFAQ(this)">
+                            <h3 itemprop="name">How long does it take to build a website in Nairobi?</h3>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                            <div itemprop="text">
+                                <p>Typical timelines for web development in Nairobi:</p>
+                                <ul>
+                                    <li><strong>Simple business website:</strong> 1-2 weeks</li>
+                                    <li><strong>E-commerce store:</strong> 2-4 weeks</li>
+                                    <li><strong>Complex custom projects:</strong> 4-8 weeks (depending on requirements)</li>
+                                </ul>
+                                <p>We work efficiently while maintaining high quality. Rush projects are possible — just ask!</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FAQ 3: Payment -->
+                    <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                        <div class="faq-question" onclick="toggleFAQ(this)">
+                            <h3 itemprop="name">What payment methods do you accept? Do you offer payment plans?</h3>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                            <div itemprop="text">
+                                <p>We accept multiple payment methods convenient for Kenyan businesses:</p>
+                                <ul>
+                                    <li><strong>M-Pesa</strong> (Lipa Na M-Pesa)</li>
+                                    <li><strong>Bank transfer</strong> (Kenyan shillings)</li>
+                                    <li><strong>Cash</strong> (for Nairobi clients)</li>
+                                </ul>
+                                <p><strong>Payment plans:</strong> Yes! We offer 50% deposit to start, 50% on completion. For larger projects, we can arrange installment payments. Just ask during consultation.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FAQ 4: Maintenance -->
+                    <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                        <div class="faq-question" onclick="toggleFAQ(this)">
+                            <h3 itemprop="name">Do you offer website maintenance in Nairobi?</h3>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                            <div itemprop="text">
+                                <p>Yes, we offer comprehensive website maintenance for Nairobi businesses:</p>
+                                <ul>
+                                    <li><strong>Basic maintenance:</strong> KES 5,000/month - security updates, backups, minor content changes</li>
+                                    <li><strong>Standard maintenance:</strong> KES 10,000/month - everything above + monthly performance review, SEO checks</li>
+                                    <li><strong>Premium maintenance:</strong> KES 15,000/month - priority support, unlimited small changes, quarterly strategy calls</li>
+                                </ul>
+                                <p>No long-term contracts — you can cancel anytime.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FAQ 5: Why Njuguna Devs -->
+                    <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                        <div class="faq-question" onclick="toggleFAQ(this)">
+                            <h3 itemprop="name">Why should I choose Njuguna Devs over other web developers in Nairobi?</h3>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                            <div itemprop="text">
+                                <p>Great question. Here's what makes us different:</p>
+                                <ul>
+                                    <li><strong>Direct access:</strong> You work directly with Cyrus, the lead developer. No account managers, no middlemen.</li>
+                                    <li><strong>Custom code, not templates:</strong> We don't use pre-made templates. Every website is built specifically for your business.</li>
+                                    <li><strong>Local understanding:</strong> We're based in Nairobi. We know Kenyan customers and what works in our market.</li>
+                                    <li><strong>Post-launch support:</strong> We don't disappear after handing over the site. We're here when you need us.</li>
+                                    <li><strong>Affordable, transparent pricing:</strong> No hidden fees. You know exactly what you're paying for.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FAQ 6: Business Benefits -->
+                    <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                        <div class="faq-question" onclick="toggleFAQ(this)">
+                            <h3 itemprop="name">How can a website help my business grow in Kenya?</h3>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                            <div itemprop="text">
+                                <p>A professional website helps your business in several ways:</p>
+                                <ul>
+                                    <li><strong>24/7 visibility:</strong> Customers can find you even when your shop is closed.</li>
+                                    <li><strong>Build trust:</strong> 78% of Kenyans research online before making a purchase. No website = no trust.</li>
+                                    <li><strong>Attract local customers:</strong> With proper SEO, people in Nairobi searching for your services will find you.</li>
+                                    <li><strong>Showcase your work:</strong> Display photos, testimonials, and examples of what you do.</li>
+                                    <li><strong>Accept online orders:</strong> E-commerce sites let customers buy from you anytime.</li>
+                                </ul>
+                                <p>We build websites that actually bring in customers, not just online brochures.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FAQ 7: Do I need SEO? -->
+                    <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                        <div class="faq-question" onclick="toggleFAQ(this)">
+                            <h3 itemprop="name">Do I need SEO for my Nairobi business website?</h3>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                            <div itemprop="text">
+                                <p>If you want customers to find you on Google, yes. Here's why SEO matters for Nairobi businesses:</p>
+                                <ul>
+                                    <li><strong>Local searches:</strong> When people search "web developers in Nairobi" or "restaurants near me", SEO helps you appear.</li>
+                                    <li><strong>Free traffic:</strong> Unlike ads, SEO brings consistent, free traffic over time.</li>
+                                    <li><strong>Credibility:</strong> Businesses on page 1 of Google are seen as more trustworthy.</li>
+                                </ul>
+                                <p>All our websites include basic SEO optimization. We also offer dedicated SEO packages for businesses that want to rank higher.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FAQ 8: M-Pesa Integration -->
+                    <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                        <div class="faq-question" onclick="toggleFAQ(this)">
+                            <h3 itemprop="name">Can you add M-Pesa to my website?</h3>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                            <div itemprop="text">
+                                <p><strong>Yes, absolutely.</strong> We integrate M-Pesa into websites for Kenyan businesses. This allows your customers to pay directly from their phones for products or services. Perfect for e-commerce stores, booking systems, and service payments.</p>
+                                <p>We use secure, approved APIs that work reliably. Ask us about M-Pesa integration during your consultation.</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="testimonial-card">
-                    <i class="fas fa-quote-left"></i>
-                    <p>"Quick, professional, and actually listens to what you want. Fixed our old website and set up hosting. Great work!"</p>
-                    <div class="client">
-                        <strong>James Otieno</strong>
-                        <span>Life Lift Hub</span>
+
+                <!-- FAQ Schema Script -->
+                <script type="application/ld+json">
+                {
+                    "@context": "https://schema.org",
+                    "@type": "FAQPage",
+                    "mainEntity": [
+                        {
+                            "@type": "Question",
+                            "name": "How much does a website cost in Kenya?",
+                            "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "Website prices in Kenya vary: Basic business websites from KES 15,000, e-commerce websites from KES 35,000, restaurant websites from KES 20,000. Custom projects are quoted individually. Contact us for a free quote."
+                            }
+                        },
+                        {
+                            "@type": "Question",
+                            "name": "How long does it take to build a website in Nairobi?",
+                            "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "Simple business websites take 1-2 weeks, e-commerce stores take 2-4 weeks, and complex custom projects take 4-8 weeks depending on requirements."
+                            }
+                        },
+                        {
+                            "@type": "Question",
+                            "name": "Do you offer M-Pesa integration?",
+                            "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "Yes, we integrate M-Pesa into websites for Kenyan businesses. This allows customers to pay directly via M-Pesa for products, services, or bookings."
+                            }
+                        }
+                    ]
+                }
+                </script>
+            </section>
+
+            <!-- CONTACT SECTION -->
+            <section class="section contact-section" id="contact" aria-labelledby="contact-title">
+                <div class="section-header">
+                    <span class="section-subtitle">Start Your Project</span>
+                    <h2 class="section-title" id="contact-title">Ready to Grow Your Nairobi Business Online?</h2>
+                    <p class="section-desc">Get a free, no-pressure consultation. Tell us about your business and we'll recommend the best solution.</p>
+                </div>
+
+                <div class="contact-container">
+                    <!-- Contact Form -->
+                    <div class="contact-form-wrapper">
+                        <form action="https://api.web3forms.com/submit" method="POST" class="contact-form">
+                            <h3>Request Your Free Quote</h3>
+                            <input type="hidden" name="access_key" value="17ff5781-b901-4cb8-a65d-3884802606de">
+                            
+                            <div class="form-group">
+                                <label for="name">Your Name *</label>
+                                <input type="text" id="name" name="name" required placeholder="e.g., John Kamau" aria-required="true">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email">Email Address *</label>
+                                <input type="email" id="email" name="email" required placeholder="john@yourbusiness.co.ke" aria-required="true">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="phone">Phone Number (WhatsApp preferred)</label>
+                                <input type="tel" id="phone" name="phone" placeholder="e.g., 07XX XXX XXX">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="business">Business Name (if applicable)</label>
+                                <input type="text" id="business" name="business" placeholder="Your business name">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="service">What do you need?</label>
+                                <select id="service" name="service">
+                                    <option value="">Select an option</option>
+                                    <option value="business">Business website</option>
+                                    <option value="ecommerce">E-commerce / online store</option>
+                                    <option value="restaurant">Restaurant website</option>
+                                    <option value="seo">SEO / Google ranking</option>
+                                    <option value="maintenance">Website maintenance</option>
+                                    <option value="other">Other / custom project</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="message">Tell us about your project *</label>
+                                <textarea id="message" name="message" rows="4" required placeholder="What kind of website do you need? What are your goals? Any specific features?" aria-required="true"></textarea>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="budget">Your budget range (optional)</label>
+                                <select id="budget" name="budget">
+                                    <option value="">Select approximate budget</option>
+                                    <option value="15-25k">KES 15,000 - 25,000</option>
+                                    <option value="25-40k">KES 25,000 - 40,000</option>
+                                    <option value="40-60k">KES 40,000 - 60,000</option>
+                                    <option value="60k+">KES 60,000+</option>
+                                    <option value="unsure">Not sure / need advice</option>
+                                </select>
+                            </div>
+                            
+                            <button type="submit" class="btn primary submit-btn">
+                                Get My Free Quote <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                            </button>
+
+                            <p class="form-note"><i class="fas fa-lock" style="font-size: 0.8rem;"></i> Your information is secure. We'll respond within 24 hours.</p>
+                        </form>
+                    </div>
+
+                    <!-- Contact Information -->
+                    <div class="contact-info">
+                        <div class="info-card">
+                            <h3>Contact Njuguna Devs</h3>
+                            
+                            <div class="info-item">
+                                <i class="fab fa-whatsapp" aria-hidden="true"></i>
+                                <div>
+                                    <strong>WhatsApp (Fastest)</strong>
+                                    <a href="https://wa.me/254792629643">+254 792 629 643</a>
+                                    <span class="info-note">Usually replies within 1 hour</span>
+                                </div>
+                            </div>
+
+                            <div class="info-item">
+                                <i class="far fa-envelope" aria-hidden="true"></i>
+                                <div>
+                                    <strong>Email</strong>
+                                    <a href="mailto:njugunadevs@gmail.com">njugunadevs@gmail.com</a>
+                                    <span class="info-note">24-48 hour response</span>
+                                </div>
+                            </div>
+
+                            <div class="info-item">
+                                <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
+                                <div>
+                                    <strong>Location</strong>
+                                    <span>Nairobi, Kenya</span>
+                                    <span class="info-note">Available for meetings in Nairobi</span>
+                                </div>
+                            </div>
+
+                            <div class="info-divider" role="separator"></div>
+
+                            <h4>Quick Response Guarantee</h4>
+                            <div class="guarantee-badge">
+                                <i class="fas fa-bolt" style="color: var(--primary);"></i>
+                                <div>
+                                    <strong>We reply within 24 hours</strong>
+                                    <span>Usually much faster on WhatsApp</span>
+                                </div>
+                            </div>
+
+                            <div class="guarantee-badge" style="margin-top: 15px;">
+                                <i class="fas fa-handshake" style="color: var(--primary);"></i>
+                                <div>
+                                    <strong>No pressure, just advice</strong>
+                                    <span>Even if you don't hire us, we're happy to help</span>
+                                </div>
+                            </div>
+
+                            <div class="working-hours">
+                                <h4>Working Hours</h4>
+                                <p><i class="far fa-calendar"></i> Monday - Friday: 9am - 6pm</p>
+                                <p><i class="far fa-calendar"></i> Saturday: 10am - 2pm</p>
+                                <p><i class="far fa-clock"></i> WhatsApp available even after hours</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </section>
-    </div>
+            </section>
+
+            <!-- CTA BANNER -->
+            <section class="cta-banner">
+                <div class="cta-content">
+                    <h2>Need a website for your Nairobi business?</h2>
+                    <p>Let's talk about your project. No pressure, just practical advice from someone who understands the local market.</p>
+                    <div class="cta-buttons">
+                        <a href="https://wa.me/254792629643" class="btn whatsapp-btn" style="font-size: 1.2rem; padding: 18px 36px;">
+                            <i class="fab fa-whatsapp"></i> Chat on WhatsApp Now
+                        </a>
+                        <a href="#contact" class="btn primary" style="background: transparent; border: 2px solid white; color: white;">
+                            Or Fill the Form
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
 
     <!-- Footer -->
-    <footer class="footer">
+    <footer class="footer" role="contentinfo">
         <div class="footer-container">
             <div class="footer-main">
                 <div class="footer-brand">
-                    <img src="/Images/WhatsApp Image 2026-03-02 at.jpeg" alt="Njuguna Devs Logo" class="footer-logo" style="height:72px;width:auto;">
-                    <p>Building custom web solutions for Kenyan businesses. Practical, scalable, and focused on results.</p>
+                    <img src="Images/WhatsApp Image 2026-03-02 at.jpeg" alt="Njuguna Devs - Web Development Company Nairobi" class="footer-logo">
+                    <p><strong>Njuguna Devs</strong> — Professional web developers based in Nairobi, Kenya. We build custom websites that help local businesses grow online.</p>
                     <div class="footer-social">
-                        <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
-                        <a href="#" target="_blank"><i class="fab fa-youtube"></i></a>
-                        <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
-                        <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Follow us on Instagram"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+                        <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Subscribe to our YouTube channel"><i class="fab fa-youtube" aria-hidden="true"></i></a>
+                        <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Connect with us on LinkedIn"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+                        <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Follow us on Facebook"><i class="fab fa-facebook" aria-hidden="true"></i></a>
                     </div>
                 </div>
                 
                 <div class="footer-links">
                     <h4>Quick Links</h4>
                     <a href="#home">Home</a>
-                    <a href="#services">Services</a>
-                    <a href="#projects">Projects</a>
-                    <a href="#why-us">Why Us</a>
-                    <a href="#contact">Contact</a>
+                    <a href="#services">Web Development Services</a>
+                    <a href="#projects">Our Portfolio</a>
+                    <a href="#about">About Njuguna Devs</a>
+                    <a href="#faq">FAQ - Nairobi Web Developers</a>
+                    <a href="#contact">Contact Us</a>
                 </div>
                 
                 <div class="footer-services">
-                    <h4>Main Services</h4>
-                    <a href="#services">Custom Websites</a>
-                    <a href="#services">UI Development</a>
-                    <a href="#services">Maintenance</a>
-                    <a href="#services">Hosting & Domain</a>
-                    <a href="#services">Integrations</a>
+                    <h4>Our Services</h4>
+                    <a href="#services">Business Websites Nairobi</a>
+                    <a href="#services">E-commerce Developers Kenya</a>
+                    <a href="#services">Restaurant Websites</a>
+                    <a href="#services">SEO Services Kenya</a>
+                    <a href="#services">Website Maintenance</a>
+                    <a href="#services">Custom Web Applications</a>
                 </div>
                 
                 <div class="footer-contact">
-                    <h4>Contact Us</h4>
-                    <a href="https://wa.me/254700000000"><i class="fab fa-whatsapp"></i> WhatsApp</a>
-                    <a href="mailto:cyrus@njugunadevs.com"><i class="far fa-envelope"></i> Email</a>
-                    <span><i class="fas fa-phone"></i> +254 700 000 000</span>
+                    <h4>Contact Info</h4>
+                    <a href="https://wa.me/254792629643"><i class="fab fa-whatsapp" aria-hidden="true"></i> +254 792 629 643</a>
+                    <a href="mailto:njugunadevs@gmail.com"><i class="far fa-envelope" aria-hidden="true"></i> njugunadevs@gmail.com</a>
+                    <span><i class="fas fa-map-marker-alt" aria-hidden="true"></i> Nairobi, Kenya</span>
+                    <span><i class="far fa-clock" aria-hidden="true"></i> Mon-Fri: 9am-6pm</span>
                 </div>
             </div>
             
@@ -504,11 +833,44 @@
                 <div class="footer-bottom-links">
                     <a href="#">Privacy Policy</a>
                     <a href="#">Terms of Service</a>
+                    <a href="#">Sitemap</a>
                 </div>
+            </div>
+
+            <!-- Local SEO Footer Note -->
+            <div class="footer-local-seo">
+                <p>Serving businesses in: <strong>Nairobi, Westlands, Kilimani, Karen, Lavington, Kileleshwa, Eastlands, Mombasa, Kisumu, Nakuru</strong> and all across Kenya.</p>
             </div>
         </div>
     </footer>
 
+    <!-- JavaScript -->
     <script src="script.js"></script>
+
+    <!-- FAQ Toggle Script -->
+    <script>
+    function toggleFAQ(element) {
+        element.classList.toggle('active');
+        const answer = element.nextElementSibling;
+        const icon = element.querySelector('i');
+        
+        if (answer.style.maxHeight) {
+            answer.style.maxHeight = null;
+            icon.style.transform = 'rotate(0deg)';
+        } else {
+            answer.style.maxHeight = answer.scrollHeight + 'px';
+            icon.style.transform = 'rotate(180deg)';
+        }
+    }
+
+    document.addEventListener('DOMContentLoaded', function() {
+        const firstFaq = document.querySelector('.faq-question');
+        if (firstFaq) {
+            firstFaq.classList.add('active');
+            const firstAnswer = firstFaq.nextElementSibling;
+            firstAnswer.style.maxHeight = firstAnswer.scrollHeight + 'px';
+        }
+    });
+    </script>
 </body>
 </html>
