@@ -1,0 +1,19 @@
+# Allow major search and AI-related crawlers to index the site.
+User-agent: *
+Allow: /
+
+# OpenAI crawlers
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+# Bing crawler used by many AI answer systems
+User-agent: Bingbot
+Allow: /
+
+Sitemap: https://njugunadevs.co.ke/sitemap.xml
